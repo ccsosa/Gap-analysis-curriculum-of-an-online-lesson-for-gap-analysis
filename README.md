@@ -220,17 +220,17 @@ Figure 2. Workflow to curate and clean up geographical records from species occu
 Curation steps
 Step 1.) Define if your target species is a landrace or a crop wild relative:
 Content:
-What is a Crop Wild Relative?
-What is a landrace?
+- [What is a Crop Wild Relative?](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/A.1.pdf)
+- [What is a landrace?](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/B.1.pdf)
 Step 2.) Search your data in occurrences databases and split in germplasm (G) and Herbarium for other sources (H).
 Data sources:
-GBIF
-Genesys
-Video Tutorial (Genesys):
+- [GBIF](https://www.gbif.org/data-processing)
+- [Genesys](https://www.genesys-pgr.org/documentation/basics)
+[Video Tutorial (Genesys)](https://www.youtube.com/watch?v=3VV-juFFVxs)
 Step 3.) Proceed to clean up your occurrences data 
 Tutorials:
-Cleaning up your coordinates using Cleancoordinates R package
-How to use an API to clean up occurrences data: (Geographical Quality Score)
+- [Cleaning up your coordinates using Cleancoordinates R package]()
+- [How to use an API to clean up occurrences data: (Geographical Quality Score)]()
 Tutorial data and R code example:
 Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys
 Bactris gasipaes cleaning coordinates using CoordinateCleaner
