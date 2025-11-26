@@ -250,7 +250,7 @@ Data sources:
   - [Formatting data for a species distribution models and gap analysis](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/Occurrences%20data%20tutorial.pptx.pdf)
 
 ____________________________________________________________
-Outcomes obtained at this point:
+Outcomes obtained:
 ```diff
 + Stage 1. Obtain Species occurrences (Germplasm + Herbarium data in a geographical space)
 ```
@@ -322,7 +322,7 @@ What are the roles of species distribution models in conservation planning?
 Predicting species distributions for conservation decisions
 
 __________________________________________________________________
-Outcomes obtained at this point:
+Outcomes obtained:
 ```diff
 + Stage 2. Obtain the potential distribution of a species considering if it is a landrace or a crop wild relatives
 ```
