@@ -193,7 +193,7 @@ Taxonomy is the most basic level of curation to be provided for a spatial analys
 
 - Curation of environmental information:
   
-Given that gap analysis requires the production of a Species Distribution model, the use of a set of predictors representing environmental conditions is required. Learners must consider that a Crop Wild Relatives Gap Analysis is mainly focused on the use of environmental data, whereas the Landraces Gap Analysis uses a blend of environmental and human factor predictors that are already available in the LGA toolbox. Spatial predictors can be obtained as follows:
+  Given that gap analysis requires the production of a Species Distribution model, the use of a set of predictors representing environmental conditions is required. Learners must consider that a Crop Wild Relatives Gap Analysis is mainly focused on the use of   environmental data, whereas the Landraces Gap Analysis uses a blend of environmental and human factor predictors that are already available in the LGA toolbox. Spatial predictors can be obtained as follows:
 
   Web resources:
   - [Worldclim.org](Worldclim.org) 
@@ -205,7 +205,7 @@ Given that gap analysis requires the production of a Species Distribution model,
   To use environmental information please keep the following questions in mind:
   - What is your geographical area for finding underrepresented plant germplasm material?
   - What approach should I use: Crop Wild Relatives or landraces gap analysis?
-  -  What raster resolution should I use?
+  - What raster resolution should I use?
 
   Supplementary lecture:
   - [Resolution in species distribution models shapes spatial patterns of plant multifaceted diversity](https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.05973)
