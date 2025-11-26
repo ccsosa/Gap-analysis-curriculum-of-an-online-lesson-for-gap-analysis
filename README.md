@@ -104,15 +104,15 @@ A gap analysis, either a Crop Wild Relative Gap Analysis (CWRGA) or Landrace Gap
 - [X] Stage 3. Sample germplasm occurrences into the realized niche using different approaches (CWR: Buffer; Landrace: Accessibility + Environment + Geography)
 - [X] Stage 4. Obtain the gap areas to collect germplasm material including planning collecting missions
 
-> [!IMPORTANT]
-> Gap Analysis is often performed in the R programming language. Many examples and resources in this curriculum are in R. If needed, please refer to the following guides for installing R, RStudio, and the necessary packages.
-> R guide to download and install packages
+> [!Note]
+> Gap Analysis is often performed in the R programming language. Many examples and resources in this curriculum are in R.
+> If needed, please refer to the following guides for installing R, RStudio, and the necessary packages.
+> 
+> - [R guide to download and install packages](https://docs.google.com/presentation/d/1WdPLXbF8SgQmcibXHRLtXbKi-3TDoPN_/edit?slide=id.p1#slide=id.p1).
+> - Spatial analysis in R 
+Using Spatial Data with R
+Spatial Data Science with R and “terra”
 
-- (0_preprocessing.R ) and Ecogeography (2_Ecogeographic_index.R) are the slowiest steps in this pipeline. Be patient
-- Please provide the germplasm collection data in MCDP format. see (https://www.genesys-pgr.org/documentation/basics#mcpd)
-- The Geographical quality score, and taxonomic geographical score can be obtained from https://github.com/alliance-datascience/genebank-general/tree/dev
-- Only use accessions with high and medium geographical quality score to run the Ecogeography (2_Ecogeographic_index.R) step
-- If genetic data is not available please use the step Genetics diversity and genetic usability information availability (4_Genetic_sequenced_coverage.R)
 
 
 NOTE: Gap Analysis is often performed in the R programming language. Many examples and resources in this curriculum are in R. If needed, please refer to the following guides for installing R, RStudio, and the necessary packages.
