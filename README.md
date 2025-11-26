@@ -184,9 +184,7 @@ Taxonomy is the most basic level of curation to be provided for a spatial analys
 - Curation of geographical coordinates data:
   
   Curation of geographical coordinates refers to the process of clean coordinates and only retains the useful data for your analysis purposes. In this step you can learn how to detect inconsistencies in geographical coordinates
-
-- Curation of coordinates data tutorial:
-  
+ 
   Concepts:
   - [The influence of spatial errors in species occurrence data used in distribution models](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2007.01408.x)
 
@@ -201,6 +199,8 @@ Taxonomy is the most basic level of curation to be provided for a spatial analys
   - [Worldclim.org](Worldclim.org) 
   - [CHELSA](https://www.chelsa-climate.org/)
   - [NASA (earthdata)](https://www.earthdata.nasa.gov/topics/human-dimensions/data-access-tools)
+  - [MapSpam](https://www.mapspam.info/)
+  - [ENVIREM (ENVIronmental Rasters for Ecological Modeling)](https://envirem.github.io/)
 
   To use environmental information please keep the following questions in mind:
   - What is your geographical area for finding underrepresented plant germplasm material?
@@ -238,7 +238,7 @@ Data sources:
 - Step 3.) Proceed to clean up your occurrences data 
   Tutorials:
   - [Cleaning up your coordinates using Cleancoordinates R package](https://ropensci.github.io/CoordinateCleaner/articles/Cleaning_GBIF_data_with_CoordinateCleaner.html)
-  - [How to use an API to clean up occurrences data: (Geographical Quality Score)]()
+  - [How to use an API to clean up occurrences data: (Geographical Quality Score)](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/Geographical_quality_score.pptx.pdf)
   Tutorial data and R code example:
   - [Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/occurrences.csv)
   - [Bactris gasipaes cleaning coordinates using CoordinateCleaner](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/CLEAN_COORDS.R)
@@ -360,9 +360,9 @@ Topics:
 - 3.4. Tutorial to perform a Landraces gap analysis using a shiny app
 
 Learning outcomes:
-- Perform a Crop Wild Relatives gap analysis
+- Perform a Crop Wild Relatives gap analysis (CWRGA)
+- Perform a Landraces gap analysis (LGA)
 - Understanding the metrics associated with a gap analysis
-- Perform a Landraces gap analysis
 - Visualizing results of a gap analysis and plan a collecting mission
 
 ### Topic 3.1. Foundations of Crop Wild relatives ex-situ gap analysis
@@ -371,8 +371,10 @@ This section presents the foundations of the Crop Wild Relatives gap analysis (C
 Web content:
 - [What is a Gap Analysis?](https://cwr.croptrust.org/project-components/gap-analysis/)
 
+Slides:
+- [Foundations of crop wild relatives gap analysis (CWRGA)]()
+
 Articles:
-- [Article: Foundations of crop wild relatives gap analysis (CWRGA)]()
 - [A Gap Analysis Methodology for Collecting Crop Genepools: A Case Study with Phaseolus Beans](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013497)
 
 ### topic 3.2. Introduction to GapAnalysis R package to perform a Crop Wild Relatives Gap Analysis
@@ -388,7 +390,7 @@ __________________________________________________________________
 > Please use the command:```remotes::install_github("CIAT-DAPA/GapAnalysis") to install from GitHub```
 
 Article:
-- [GapAnalysis R package](https://github.com/CIAT-DAPA/GapAnalysis)
+- [GapAnalysit  s R package](https://github.com/CIAT-DAPA/GapAnalysis)
 - [Step 1): Use an Interpret GapAnalysis R results](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.05430)
   
 Data for CWRGA (Ecoregions)  :
