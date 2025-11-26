@@ -379,9 +379,11 @@ __________________________________________________________________
 Input data required:
 Occurrence data formatted for the GapAnalysis R package. Please keep the accessions without geographical coordinates to be used to calculate the Sample Representativeness Score (SRS)
 A species distribution model with a good predictability (for example AUC>0.7) and thresholded (The presence must be have value of 1)
-__________________________________________________________________
-NOTE: The GapAnalysis R package is under maintenance nowadays and a version 2.0 is under development. Please use the command remotes::install_github("CIAT-DAPA/GapAnalysis") to install from GitHub
-__________________________________________________________________
+
+> [!Note]
+>  The GapAnalysis R package is under maintenance nowadays and a version 2.0 is under development.
+> Please use the command:```remotes::install_github("CIAT-DAPA/GapAnalysis") to install from GitHub```
+
 Article:
 GapAnalysis R package
 Step 1: Use an Interpret GapAnalysis R results
@@ -393,12 +395,14 @@ Tutorial:
 Step3: Tutorial to run a Crop Wild Relatives Gap Analysis using an R code explained step by step
 Code:
 Extra: Code to run CWR gap analysis for multiple species and visualize them in a Leaflet visualization
-__________________________________________________________________
-NOTE: The CWRGA requires germplasm data. In the lack of germplasm data, your target species must be considered as an urgent priority to collect.
-__________________________________________________________________
-CWR outcomes checklist
-Final Conservation Score tables (Metrics)
-Gap map
+
+
+> [!Warning]
+> The CWRGA requires germplasm data. In the lack of germplasm data, your target species must be considered as an urgent priority to collect.
+
+## CWR outcomes checklist
+- [x] Final Conservation Score tables (Metrics)
+- [x] Gap map
 __________________________________________________________________
 ### Topic 3.3. Landraces Gap Analysis foundations
 This section introduces the concept of a Landraces gap analysis (LGA) using a presentation and it provides the differences between CWRGA and LGA approaches.
