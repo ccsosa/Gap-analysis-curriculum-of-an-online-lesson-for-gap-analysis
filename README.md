@@ -179,28 +179,28 @@ Taxonomy is the most basic level of curation to be provided for a spatial analys
   - [TNRS tutorial (English)](https://cyverse-taxonomic-name-resolution-service-tutorial.readthedocs-hosted.com/en/latest/)
 
 - Curation of geographical coordinates data:
-Curation of geographical coordinates refers to the process of clean coordinates and only retains the useful data for your analysis purposes. In this step you can learn how to detect inconsistencies in geographical coordinates
+  Curation of geographical coordinates refers to the process of clean coordinates and only retains the useful data for your analysis purposes. In this step you can learn how to detect inconsistencies in geographical coordinates
 
-Curation of coordinates data tutorial
-- Concepts:
-[The influence of spatial errors in species occurrence data used in distribution models](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2007.01408.x)
-Tutorial
-[Curation of coordinates data tutorial]()
+  Curation of coordinates data tutorial
+  - Concepts:
+  [The influence of spatial errors in species occurrence data used in distribution models](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2007.01408.x)
+  Tutorial
+  [Curation of coordinates data tutorial]()
 
-- Curation of environmental information
-Given that gap analysis requires the production of a Species Distribution model, the use of a set of predictors representing environmental conditions is required. Here, spatial predictors can be obtained as follows:
-Web resources:
-[Worldclim.org](Worldclim.org) 
-[CHELSA](https://www.chelsa-climate.org/)
-[NASA (earthdata)](https://www.earthdata.nasa.gov/topics/human-dimensions/data-access-tools)
+  - Curation of environmental information
+  Given that gap analysis requires the production of a Species Distribution model, the use of a set of predictors representing environmental conditions is required. Here, spatial predictors can be obtained as follows:
+  Web resources:
+  - [Worldclim.org](Worldclim.org) 
+  - [CHELSA](https://www.chelsa-climate.org/)
+  - [NASA (earthdata)](https://www.earthdata.nasa.gov/topics/human-dimensions/data-access-tools)
 
-To use environmental information please keep the following questions in mind:
-- What is your geographical area for finding underrepresented plant germplasm material?
-- What approach should I use: Crop Wild Relatives or landraces gap analysis?
--  What raster resolution should I use?
+  To use environmental information please keep the following questions in mind:
+  - What is your geographical area for finding underrepresented plant germplasm material?
+  - What approach should I use: Crop Wild Relatives or landraces gap analysis?
+  -  What raster resolution should I use?
 
-Supplementary lecture:
-[Resolution in species distribution models shapes spatial patterns of plant multifaceted diversity](https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.05973)
+  Supplementary lecture:
+  - [Resolution in species distribution models shapes spatial patterns of plant multifaceted diversity](https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.05973)
 
 > [!Note]
 > A good raster predictor resolution is usually 5 km. This is convenient for subcontinental to continental scales. We highly advise you to avoid high-resolution rasters, such as 1 km or less, unless it is convenient for your species. The higher the resolution, the greater the computer resources used. 
