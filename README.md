@@ -146,7 +146,7 @@ Learning outcomes
 ### Topic 1.1) GIS related to plant germplasm conservation
 GIS use is relevant for the development of collecting missions of a plant germplasm bank because each accession of a collection represents the diversity of a group of crop wild relatives or landraces. Therefore, it is important to map the accession collection, including the country, administrative information, and localities.
 
-A good starting point for the use of GIS in germplasm data is related to the following document
+- A good starting point for the use of GIS in germplasm data is related to the following document
 Concepts:
 [Review. Applications of ecogeography and geographic information systems in conservation and utilization of plant genetic resources](https://sjar.revistas.csic.es/index.php/sjar/article/view/1859)
 
@@ -166,45 +166,55 @@ Herbarium databases:
 ## Topic 1.3) How to curate GIS data from germplasm data or a biodiversity data
 This topic presents a set of useful databases for the curation of plant taxonomics, environment, and coordinates cleaning required for a replicable and high-quality study. 
 - Curation of taxonomic data
-Taxonomy is the most basic level of curation to be provided for a spatial analysis. Species names are not static; they evolve and change according to new molecular and morphological data. Fortunately, there are online taxonomical resources to determine whether your target species is a synonym, an accepted name, or invalid. (e.g. *Pennisetum glaucum* is now C*enchrus americanus*).
-Web resources:
-Plants of the world
-Taxonomic Name Resolution Service
-International Plant Names Index (IPNI)
-World Flora online
-Tutorial:
-TNRS tutorial (Spanish)
+Taxonomy is the most basic level of curation to be provided for a spatial analysis. Species names are not static; they evolve and change according to new molecular and morphological data. Fortunately, there are online taxonomical resources to determine whether your target species is a synonym, an accepted name, or invalid. (e.g. *Pennisetum glaucum* is now *Cenchrus americanus*).
 
-Curation of geographical coordinates data:
+  Web resources:
+  - [Plants of the world](https://powo.science.kew.org/
+  - [Taxonomic Name Resolution Service](https://tnrs.biendata.org/)
+  - [International Plant Names Index (IPNI)](https://www.ipni.org/)
+  - [World Flora online](https://www.worldfloraonline.org/)
+  
+  Tutorial:
+  - [TNRS tutorial (Spanish)](https://sib-colombia.github.io/Formacion/LAB/lab02/lab_tnrs.html)
+  - [TNRS tutorial (English)](https://cyverse-taxonomic-name-resolution-service-tutorial.readthedocs-hosted.com/en/latest/)
+
+- Curation of geographical coordinates data:
 Curation of geographical coordinates refers to the process of clean coordinates and only retains the useful data for your analysis purposes. In this step you can learn how to detect inconsistencies in geographical coordinates
-Curation of coordinates data tutorial
-Concepts:
-The influence of spatial errors in species occurrence data used in distribution models
-Tutorial
-Curation of coordinates data tutorial
 
-Curation of environmental information
+Curation of coordinates data tutorial
+- Concepts:
+[The influence of spatial errors in species occurrence data used in distribution models](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2007.01408.x)
+Tutorial
+[Curation of coordinates data tutorial]()
+
+- Curation of environmental information
 Given that gap analysis requires the production of a Species Distribution model, the use of a set of predictors representing environmental conditions is required. Here, spatial predictors can be obtained as follows:
 Web resources:
-Worldclim.org 
-CHELSA
-NASA (earthdata)
+[Worldclim.org](Worldclim.org) 
+[CHELSA](https://www.chelsa-climate.org/)
+[NASA (earthdata)](https://www.earthdata.nasa.gov/topics/human-dimensions/data-access-tools)
+
 To use environmental information please keep the following questions in mind:
-What is your geographical area for finding underrepresented plant germplasm material?
-What approach should I use: Crop Wild Relatives or landraces gap analysis?
-What raster resolution should I use?
+- What is your geographical area for finding underrepresented plant germplasm material?
+- What approach should I use: Crop Wild Relatives or landraces gap analysis?
+-  What raster resolution should I use?
+
 Supplementary lecture:
-Resolution in species distribution models shapes spatial patterns of plant multifaceted diversity
-__________________________________________________________________NOTE: A good raster predictor resolution is usually 5 km. This is convenient for subcontinental to continental scales. We highly advise you to avoid high-resolution rasters, such as 1 km or less, unless it is convenient for your species. The higher the resolution, the greater the computer resources used. __________________________________________________________________
+[Resolution in species distribution models shapes spatial patterns of plant multifaceted diversity](https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.05973)
 
-Topic 1.4) Prepare your data to model a species distribution and for gap analysis
+> [!Note]
+> A good raster predictor resolution is usually 5 km. This is convenient for subcontinental to continental scales. We highly advise you to avoid high-resolution rasters, such as 1 km or less, unless it is convenient for your species. The higher the resolution, the greater the computer resources used. 
+
+
+## Topic 1.4) Prepare your data to model a species distribution and for gap analysis
 Consider the following steps when curating your germplasm passport data (Figure 2). 
-Step 1.) Define whether your target species is a landrace or a crop wild relatives:
-Step 2.) Search your data in occurrence databases and split them into germplasm (G) and herbarium for other sources (H).
-Step 3.) Proceed to clean up your occurrences data 
-Step 4.) Format your data for a species distribution and gap analysis
+- Step 1.) Define whether your target species is a landrace or a crop wild relatives:
+- Step 2.) Search your data in occurrence databases and split them into germplasm (G) and herbarium for other sources (H).
+- Step 3.) Proceed to clean up your occurrences data 
+- Step 4.) Format your data for a species distribution and gap analysis
+  
 
-
+<img width="1020" height="931" alt="image" src="https://github.com/user-attachments/assets/71452dde-11a6-437a-9e7f-7e9dedd958eb" />
 Figure 2. Workflow to curate and clean up geographical records from species occurrences databases consisting of four steps: Step 1.) Define whether your target species is a landrace or a crop wild relative. Step 2.) Search your data in occurrences databases and split in germplasm (G) and Herbarium for other sources (H). Step 3.) Proceed to clean your occurrence data. Step 4.) Format your data for a species distribution and gap analysis
 
 Curation steps
