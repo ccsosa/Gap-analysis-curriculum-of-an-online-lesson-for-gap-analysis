@@ -182,6 +182,7 @@ Taxonomy is the most basic level of curation to be provided for a spatial analys
   Curation of geographical coordinates refers to the process of clean coordinates and only retains the useful data for your analysis purposes. In this step you can learn how to detect inconsistencies in geographical coordinates
 
   Curation of coordinates data tutorial
+  
   - Concepts:
   [The influence of spatial errors in species occurrence data used in distribution models](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2007.01408.x)
   Tutorial
@@ -242,13 +243,12 @@ Data sources:
   Tutorial:
   - [Formatting data for a species distribution models and gap analysis](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/Occurrences%20data%20tutorial.pptx.pdf)
 
-____________________________________________________________
-Outcomes obtained:
-```diff
-+ Stage 1. Obtain Species occurrences (Germplasm + Herbarium data in a geographical space)
-```
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/ccb7895a-9e14-4232-990b-4064968321cb" />
-__________________________________________________________________
+
+
+> # Outcomes obtained:
+> Stage 1. Obtain Species occurrences (Germplasm + Herbarium data in a geographical space
+> <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/ccb7895a-9e14-4232-990b-4064968321cb" />
+
 
 ## Module 2. Introduction to species distribution models (16-20 hours)
 A species can inhabit a physical space where it has the ecological conditions to survive. A species distribution model aims to predict the area using the niche concept as a basis. The main task of this module is to find that species distribution.
@@ -313,9 +313,6 @@ Articles:
 - [Target-group backgrounds prove effective at correcting sampling bias in Maxent models](https://onlinelibrary.wiley.com/doi/10.1111/ddi.13442)
 - [Environmental filters reduce the effects of sampling bias and improve predictions of ecological niche models](https://nsojournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0587.2013.00441.x)
 
-
-
-
 ## Topic 2.4. Practical use of SDMs in conservation
 In this section, a set of lectures is introduced to teach the learning of ecological reasoning using species distribution in conservation decision uses, as is the case of the ex-situ gap analysis provided in the module three.
 
@@ -324,17 +321,11 @@ Articles:
 - [What are the roles of species distribution models in conservation planning?](https://www.cambridge.org/core/journals/environmental-conservation/article/what-are-the-roles-of-species-distribution-models-in-conservation-planning/E9A0278A64653CE1B1BE23B704C131A8)
 - [Predicting species distributions for conservation decisions](https://onlinelibrary.wiley.com/doi/10.1111/ele.12189)
 
-__________________________________________________________________
-Outcomes obtained:
-```diff
-+ Stage 2. Obtain the potential distribution of a species considering if it is a landrace or a crop wild relatives
-```
-<img width="600" height="300" alt="Diapositiva8" src="https://github.com/user-attachments/assets/4330c8fc-720d-484e-863c-041075b52343" />
 
 
-__________________________________________________________________
-
-
+> # Outcomes obtained:
+> Stage 2. Obtain the potential distribution of a species considering if it is a landrace or a crop wild relatives
+> <img width="600" height="300" alt="Diapositiva8" src="https://github.com/user-attachments/assets/4330c8fc-720d-484e-863c-041075b52343" />
 ---
 # PART II. Gap Analysis
 ## Module 3. Gap Analysis (10-12 hours)
@@ -459,13 +450,13 @@ __________________________________________________________________
 - [x] Gap map with three assessment layers
 - [x] Coverage metrics
 ________________________________________________________________
-#### Outcomes obtained:
-```diff
-Stage 3. Sample germplasm occurrences into the realized niche using different approaches (CWR: Buffer; Landrace: Accessibility + Environment + Geography)
-Stage 4. Obtain the gap areas to collect germplasm material including planning collecting missions
-```
-<img width="600" height="300" alt="Diapositiva10" src="https://github.com/user-attachments/assets/d26bc2da-5248-4790-be8c-fc347d0cfad5" />
-______________________________________________________
+
+
+> # Outcomes obtained:
+> Stage 3. Sample germplasm occurrences into the realized niche using different approaches (CWR: Buffer; Landrace: Accessibility + Environment + Geography)
+> Stage 4. Obtain the gap areas to collect germplasm material including planning collecting missions
+> <img width="600" height="300" alt="Diapositiva10" src="https://github.com/user-attachments/assets/d26bc2da-5248-4790-be8c-fc347d0cfad5" />
+
 
 ## Module 4. Preparing strategies to collect new plant materials (3-5 Hours)
 This module introduces post-gap analysis steps,which consist of visualizing the gap analysis results, determining caveats in the results, and finally providing alternatives to gap analysis and possible subsequent steps, such as collecting missions. 
