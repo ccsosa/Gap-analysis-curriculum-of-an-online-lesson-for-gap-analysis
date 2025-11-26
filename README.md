@@ -317,7 +317,7 @@ Environmental filters reduce the effects of sampling bias and improve prediction
 ## Topic 2.4) Practical use of SDMs in conservation
 In this section, a set of lectures is introduced to teach the learning of ecological reasoning using species distribution in conservation decision uses, as is the case of the ex-situ gap analysis provided in the module three.
 Articles:
-Review. Applications of ecogeography and geographic information systems in conservation and utilization of plant genetic resources
+-Review. Applications of ecogeography and geographic information systems in conservation and utilization of plant genetic resources
 What are the roles of species distribution models in conservation planning?
 Predicting species distributions for conservation decisions
 
@@ -332,68 +332,48 @@ Outcomes obtained at this point:
 __________________________________________________________________
 
 
-
-
-
-
-
-PART II. Gap Analysis
-Module 3. Gap Analysis (10-12 hours)
+---
+# PART II. Gap Analysis
+## Module 3. Gap Analysis (10-12 hours)
 A gap analysis in genebanks is a systematic method aimed at identifying deficiencies in the representation of genetic resources, specifically plant germplasm within ex situ conservation collections. This analysis targets both the geographical and genetic representation of accessions, assisting genebanks in prioritizing the collection efforts for Crop Wild Relatives and landraces. Before start your journey to obtain areas for collecting please check the following table (Table 1) that compare Crop Wild Relatives and Landraces Gap Analysis approaches
+
 Table 1. Comparisons between Crop Wild Relatives (CWRGA) and Landraces Gap Analysis (LGA) approaches using nine categories of use.
-User use
-Crop Wild Relatives
-Landraces
-Occurrences curation
-Easy (Taxon level, usually species level)
-Easy to Hard (Taxon level, usually species level, but dependent of the genetic structure of the crop, it is possible to use environmental clustering to define landraces groups)
-User R skills
-Medium
-Easy (A shiny app is available)
-Metrics
-Strong (Three metrics available)
-Medium (Only coverage metrics is available)
-Computer time
-Not demanding (Few resources)
-Computationally demanding (LGA toolbox requires time and CPUs to work with)
-Predictors
-Consider only environmental predictors
-Consider environmental and socioeconomic
- predictors
-Species distribution model (SDM)
-User perform the modelling
-LGA toolbox perform SDM
-Germplasm assessment
-50 km2 diameter buffer
-Three methods: Accessibility, Environmental,
- Connectivity
-Interpretation
-Straightforward
-Not easy at all. (Curate your outcomes
- carefully) 
+### Comparison Table: Crop Wild Relatives vs. Landraces
+
+| **Category**              | **Crop Wild Relatives**                                                                 | **Landraces**                                                                                                                     |
+|---------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **Occurrences curation**  | Easy (Taxon level, usually species level)                                                |    Easy to Hard (Taxon level, usually species level, but depends on genetic structure; environmental clustering can define groups)                  
+| **User R skills**         | Medium                                                                                    | Easy (A Shiny app is available)                                                                                                   |
+| **Metrics**               | Strong (Three metrics available)                                                         | Medium (Only coverage metrics available)                                                                                          |
+| **Computer time**         | Not demanding (Few resources)                                                            | Computationally demanding (LGA toolbox requires time and CPUs)                                                                    |
+| **Predictors**            | Consider only environmental predictors                                                   | Consider environmental and socioeconomic predictors                                                                                |
+| **Species distribution model (SDM)** | User performs the modelling                                                             | LGA toolbox performs the SDM                                                                                                      |
+| **Germplasm assessment**  | 50 km² diameter buffer                                                                    | Three methods: Accessibility, Environmental, Connectivity                                                                         |
+| **Interpretation**        | Straightforward                                                                           | Not easy at all (Curate your outcomes carefully)                                                                                 |
 
 
 Topics:
-3.1.) Foundations of Crop Wild relatives gap analysis
-3.2.) Introduction to GapAnalysis R package to perform a Crop Wild Relatives Gap Analysis
-3.3.) Landraces Gap Analysis foundations
-3.4.) Tutorial to perform a Landraces gap analysis using a shiny app
-Learning outcomes:
-Perform a Crop Wild Relatives gap analysis
-Understanding the metrics associated with a gap analysis
-Perform a Landraces gap analysis
-Visualizing results of a gap analysis and plan a collecting mission
+- 3.1.) Foundations of Crop Wild relatives gap analysis
+- 3.2.) Introduction to GapAnalysis R package to perform a Crop Wild Relatives Gap Analysis
+- 3.3.) Landraces Gap Analysis foundations
+- 3.4.) Tutorial to perform a Landraces gap analysis using a shiny app
 
-Topic 3.1. Foundations of Crop Wild relatives ex-situ gap analysis
+Learning outcomes:
+- Perform a Crop Wild Relatives gap analysis
+- Understanding the metrics associated with a gap analysis
+- Perform a Landraces gap analysis
+- Visualizing results of a gap analysis and plan a collecting mission
+
+### Topic 3.1. Foundations of Crop Wild relatives ex-situ gap analysis
 This section presents the foundations of the Crop Wild Relatives gap analysis (CWRGA) in the form of a presentation and the case study for beans where the CWRGA is introduced.
 Web content:
-What is a Gap Analysis?
+- What is a Gap Analysis?
 
 Articles:
-Article: Foundations of crop wild relatives gap analysis (CWRGA)
-A Gap Analysis Methodology for Collecting Crop Genepools: A Case Study with Phaseolus Beans
+- Article: Foundations of crop wild relatives gap analysis (CWRGA)
+- A Gap Analysis Methodology for Collecting Crop Genepools: A Case Study with Phaseolus Beans
 
-Topic 3.2. Introduction to GapAnalysis R package to perform a Crop Wild Relatives Gap Analysis
+### topic 3.2. Introduction to GapAnalysis R package to perform a Crop Wild Relatives Gap Analysis
 CWRGA is usually performed using an R package named GapAnalysis which is a compendium of the R code developed by the International Center for Tropical Agriculture (CIAT) for a decade. This topic introduces a tutorial step-by-step via the GapAnalysis R package and an example using Cucurbita cordata data.
 __________________________________________________________________
 Input data required:
