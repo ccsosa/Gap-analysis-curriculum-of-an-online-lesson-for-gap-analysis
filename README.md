@@ -43,11 +43,11 @@ Storage: Enough space on disk (At least 100 GB)
 Permissions: You must have Administrative rights to install software
 
 # Core Software
-- [X] R Software
-- [ ] RStudio IDE: 
-- [ ] RTools for Windows
-- [ ] Java JDK: Required to run a Shiny app
-- [ ] QGIS (Suggested for GIS visualization)
+- [x] R Software
+- [x] RStudio IDE: 
+- [x] RTools for Windows
+- [x] Java JDK: Required to run a Shiny app
+- [x] QGIS (Suggested for GIS visualization)
 
 # How to use this document
 This document follows the logical sequence shown in Figure 1, which describes the four stages of conducting a gap analysis. Stages 1 and 2 are described in the first two modules, and Stages 3 and 4 are described in Module 3. Along with the document, you will find resources such as tutorials, presentations, videos, and software to obtain gap analysis results.
@@ -114,7 +114,7 @@ A gap analysis, either a Crop Wild Relative Gap Analysis (CWRGA) or Landrace Gap
 > If needed, please refer to the following guides for installing R, RStudio, and the necessary packages.
 >  - [R guide to download and install packages](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Pre-course%20Mini%20Bootcamp/Day_2-R_basics.pdf)
 >  - [R Basics video](https://www.youtube.com/watch?v=_V8eKsto3Ug)
->  - Please ensure that the following packages are installed. Copy and paste these code lines into the R console: ``` install.packages("pacman");library(pacman);pacman::p_load(tidyverse,terra,sf,readxl,readr,writexl,geodata,tmap,leaflet,remotes)```
+>  - Please ensure that the following packages are installed. Copy and paste these code lines into the R console: ```install.packages("pacman");library(pacman);pacman::p_load(tidyverse,terra,sf,readxl,readr,writexl,geodata,tmap,leaflet,remotes)```
 
 ## Pre-course Mini Bootcamp (3-4 hours)
 This section includes a small introduction to the foundations of basic knowledge required to perform spatial analysis and operations using the R programming language
