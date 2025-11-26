@@ -193,7 +193,7 @@ Taxonomy is the most basic level of curation to be provided for a spatial analys
 
 - Curation of environmental information:
   
-  Given that gap analysis requires the production of a Species Distribution model, the use of a set of predictors representing environmental conditions is required. Here, spatial predictors can be obtained as follows:
+Given that gap analysis requires the production of a Species Distribution model, the use of a set of predictors representing environmental conditions is required. Learners must consider that a Crop Wild Relatives Gap Analysis is mainly focused on the use of environmental data, whereas the Landraces Gap Analysis uses a blend of environmental and human factor predictors that are already available in the LGA toolbox. Spatial predictors can be obtained as follows:
 
   Web resources:
   - [Worldclim.org](Worldclim.org) 
@@ -235,6 +235,10 @@ Data sources:
   - [GBIF](https://www.gbif.org/data-processing)
   - [Genesys](https://www.genesys-pgr.org/documentation/basics)
   [Video Tutorial (Genesys)](https://www.youtube.com/watch?v=3VV-juFFVxs)
+
+  Tutorial:
+  - [Downloading data for a landraces gap analysis from public databases]()
+
 - Step 3.) Proceed to clean up your occurrences data 
   Tutorials:
   - [Cleaning up your coordinates using Cleancoordinates R package](https://ropensci.github.io/CoordinateCleaner/articles/Cleaning_GBIF_data_with_CoordinateCleaner.html)
