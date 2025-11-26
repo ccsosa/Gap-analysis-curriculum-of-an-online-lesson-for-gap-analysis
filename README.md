@@ -239,25 +239,23 @@ Tutorials:
 - [Cleaning up your coordinates using Cleancoordinates R package]()
 - [How to use an API to clean up occurrences data: (Geographical Quality Score)]()
 Tutorial data and R code example:
-Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys
-Bactris gasipaes cleaning coordinates using CoordinateCleaner
+- [Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys]()
+- [Bactris gasipaes cleaning coordinates using CoordinateCleaner]()
 Step 4.) Format your data for a species distribution and gap analysis
 Tutorial data and template examples:
-Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys for wallace (SDM)
-Cucurbita species from GapAnalysis R package example (CWRGA)
-Triticum turgidum example for a LGA
+- [Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys for wallace (SDM)]()
+- [Cucurbita species from GapAnalysis R package example (CWRGA)]()
+- [Triticum turgidum example for a LGA]()
 Tutorial:
-Formatting data for a species distribution models and gap analysis
-
-
-
-
-
-
+- [Formatting data for a species distribution models and gap analysis]()
 
 ____________________________________________________________
 Outcomes obtained at this point:
+```diff
+
 Stage 1. Obtain Species occurrences (Germplasm + Herbarium data in a geographical space)
+```
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ccb7895a-9e14-4232-990b-4064968321cb" />
 
 __________________________________________________________________
 Module 2. Introduction to species distribution models (16-20 hours)
