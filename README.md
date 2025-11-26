@@ -103,7 +103,18 @@ A gap analysis, either a Crop Wild Relative Gap Analysis (CWRGA) or Landrace Gap
 - [X] Stage 2. Obtain the potential distribution of a species considering if it is a landrace or a crop wild relative to work as a reference to know what the potential area is to be collected
 - [X] Stage 3. Sample germplasm occurrences into the realized niche using different approaches (CWR: Buffer; Landrace: Accessibility + Environment + Geography)
 - [X] Stage 4. Obtain the gap areas to collect germplasm material including planning collecting missions
-__________________________________________________________________
+
+> [!IMPORTANT]
+> Gap Analysis is often performed in the R programming language. Many examples and resources in this curriculum are in R. If needed, please refer to the following guides for installing R, RStudio, and the necessary packages.
+> R guide to download and install packages
+
+- (0_preprocessing.R ) and Ecogeography (2_Ecogeographic_index.R) are the slowiest steps in this pipeline. Be patient
+- Please provide the germplasm collection data in MCDP format. see (https://www.genesys-pgr.org/documentation/basics#mcpd)
+- The Geographical quality score, and taxonomic geographical score can be obtained from https://github.com/alliance-datascience/genebank-general/tree/dev
+- Only use accessions with high and medium geographical quality score to run the Ecogeography (2_Ecogeographic_index.R) step
+- If genetic data is not available please use the step Genetics diversity and genetic usability information availability (4_Genetic_sequenced_coverage.R)
+
+
 NOTE: Gap Analysis is often performed in the R programming language. Many examples and resources in this curriculum are in R. If needed, please refer to the following guides for installing R, RStudio, and the necessary packages.
 R guide to download and install packages
 R Basics video
