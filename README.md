@@ -169,7 +169,7 @@ This topic presents a set of useful databases for the curation of plant taxonomi
 Taxonomy is the most basic level of curation to be provided for a spatial analysis. Species names are not static; they evolve and change according to new molecular and morphological data. Fortunately, there are online taxonomical resources to determine whether your target species is a synonym, an accepted name, or invalid. (e.g. *Pennisetum glaucum* is now *Cenchrus americanus*).
 
   Web resources:
-  - [Plants of the world](https://powo.science.kew.org/
+  - [Plants of the world](https://powo.science.kew.org/)
   - [Taxonomic Name Resolution Service](https://tnrs.biendata.org/)
   - [International Plant Names Index (IPNI)](https://www.ipni.org/)
   - [World Flora online](https://www.worldfloraonline.org/)
