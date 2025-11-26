@@ -107,76 +107,66 @@ A gap analysis, either a Crop Wild Relative Gap Analysis (CWRGA) or Landrace Gap
 > [!Note]
 > Gap Analysis is often performed in the R programming language. Many examples and resources in this curriculum are in R.
 > If needed, please refer to the following guides for installing R, RStudio, and the necessary packages.
-> 
-> - [R guide to download and install packages](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Pre-course%20Mini%20Bootcamp/Day_2-R_basics.pdf)
-> - [Spatial analysis in R](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Pre-course%20Mini%20Bootcamp/Introduction%20to%20spatial%20analysis%20in%20R.pdf)
-> - [Using Spatial Data with R](https://cengel.github.io/R-spatial/)
-> - [Spatial Data Science with R and “terra”](https://rspatial.org/)
-
-
-
-NOTE: Gap Analysis is often performed in the R programming language. Many examples and resources in this curriculum are in R. If needed, please refer to the following guides for installing R, RStudio, and the necessary packages.
-R guide to download and install packages
-R Basics video
-Please ensure that the following packages are installed. Copy and paste these code lines into the R console.
+>  - [R guide to download and install packages](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Pre-course%20Mini%20Bootcamp/Day_2-R_basics.pdf)
+>  - [R Basics video](https://www.youtube.com/watch?v=_V8eKsto3Ug)
+>  - Please ensure that the following packages are installed. Copy and paste these code lines into the R console.
+```
 install.packages("pacman")
 library(pacman)
 pacman::p_load(tidyverse,terra,sf,readxl,readr,writexl,geodata,tmap,leaflet,remotes)
-__________________________________________________________________
-Pre-course Mini Bootcamp (3-4 hours)
+```
+
+## Pre-course Mini Bootcamp (3-4 hours)
 This section includes a small introduction to the foundations of basic knowledge required to perform spatial analysis and operations using the R programming language
 Resources for R and spatial analysis beginners:
-R Basics (slides)
-Spatial analysis in R 
-Using Spatial Data with R
-Spatial Data Science with R and “terra”
+  - [R Basics (slides)](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Pre-course%20Mini%20Bootcamp/Day_2-R_basics.pdf) 
+  - [Spatial analysis in R](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Pre-course%20Mini%20Bootcamp/Introduction%20to%20spatial%20analysis%20in%20R.pdf)
+  - [Using Spatial Data with R](https://cengel.github.io/R-spatial/)
+  - [Spatial Data Science with R and “terra”](https://rspatial.org/)
 
+---
 
+# PART I Use of GIS Tools in Planning Germplasm Conservation
 
-
-
-
-PART I Use of GIS Tools in Planning Germplasm Conservation
-
-Module 1: The use of GIS tools in planning conservation (12 - 14 hours)
+## Module 1: The use of GIS tools in planning conservation (12 - 14 hours)
 This section is dedicated to the use of geographical information systems (GIS) for germplasm data analysis. Germplasm data have geographical data associated with them, which are not always well described, but they are a milestone in responding to the question of where I need to collect plant material.
 
 Topics:
-1.1.) GIS related to plant germplasm conservation
-1.2.) Species occurrences Databases
-1.3.) How to curate GIS data
-1.4) Prepare your data to model a species distribution and for gap analysis
+- 1.1.) GIS related to plant germplasm conservation
+- 1.2.) Species occurrences Databases
+- 1.3.) How to curate GIS data
+- 1.4) Prepare your data to model a species distribution and for gap analysis
 
 Learning outcomes
-Download germplasm information from databases to perform a gap analysis
-Visualize germplasm accession geographical data
-Establishing some software helpful for GIS tasks in a genebank
-Curate data to start a gap analysis
+- Download germplasm information from databases to perform a gap analysis
+- Visualize germplasm accession geographical data
+- Establishing some software helpful for GIS tasks in a genebank
+- Curate data to start a gap analysis
 
-Topic 1.1) GIS related to plant germplasm conservation
+### Topic 1.1) GIS related to plant germplasm conservation
 GIS use is relevant for the development of collecting missions of a plant germplasm bank because each accession of a collection represents the diversity of a group of crop wild relatives or landraces. Therefore, it is important to map the accession collection, including the country, administrative information, and localities.
+
 A good starting point for the use of GIS in germplasm data is related to the following document
-
 Concepts:
-Review. Applications of ecogeography and geographic information systems in conservation and utilization of plant genetic resources
+[Review. Applications of ecogeography and geographic information systems in conservation and utilization of plant genetic resources](https://sjar.revistas.csic.es/index.php/sjar/article/view/1859)
 
-Topic 1.2.) Species occurrences databases: 
+### Topic 1.2.) Species occurrences databases: 
 Over the decades, geographical biodiversity information has become relevant for conservation and biotechnology. Currently, global initiatives have created open-access databases that can be used to gather occurrence data on plant genetic resources. 
 
 Germplasm databases (need to build a species distribution model): 
-GRIN-Global
-Genesys Global Portal on Plant Genetic Resources
-European Search Catalogue for Plant Genetic Resources (EURISCO) 
-World Information and Early Warning System on Plant Genetic Resources for Food and Agriculture (FAO-WIEWS)
+- [GRIN-Global](https://www.grin-global.org/)
+- [Genesys Global Portal on Plant Genetic Resources](https://www.genesys-pgr.org/)
+- [European Search Catalogue for Plant Genetic Resources (EURISCO)](https://eurisco.ipk-gatersleben.de/apex/eurisco_ws_dev/r/eurisco/home)
+- [World Information and Early Warning System on Plant Genetic Resources for Food and Agriculture (FAO-WIEWS)](https://www.fao.org/wiews/data/ex-situ-sdg-251/search/en/?no_cache=1)
 
 Herbarium databases:
-GBIF (Global Biodiversity Information Facility) 
-iDigBio (Integrated Digitized Biocollections) 
+- [GBIF (Global Biodiversity Information Facility)](https://www.gbif.org/)
+- [iDigBio (Integrated Digitized Biocollections)](https://www.idigbio.org/)
 
-Topic 1.3) How to curate GIS data from germplasm data or a biodiversity data
+## Topic 1.3) How to curate GIS data from germplasm data or a biodiversity data
 This topic presents a set of useful databases for the curation of plant taxonomics, environment, and coordinates cleaning required for a replicable and high-quality study. 
-Curation of taxonomic data
-Taxonomy is the most basic level of curation to be provided for a spatial analysis. Species names are not static; they evolve and change according to new molecular and morphological data. Fortunately, there are online taxonomical resources to determine whether your target species is a synonym, an accepted name, or invalid. (e.g. Pennisetum glaucum is now Cenchrus americanus).
+- Curation of taxonomic data
+Taxonomy is the most basic level of curation to be provided for a spatial analysis. Species names are not static; they evolve and change according to new molecular and morphological data. Fortunately, there are online taxonomical resources to determine whether your target species is a synonym, an accepted name, or invalid. (e.g. *Pennisetum glaucum* is now C*enchrus americanus*).
 Web resources:
 Plants of the world
 Taxonomic Name Resolution Service
