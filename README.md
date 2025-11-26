@@ -449,17 +449,16 @@ __________________________________________________________________
 - [x] HTML Report 
 - [x] Gap map with three assessment layers
 - [x] Coverage metrics
-________________________________________________________________
-
 
 > # Outcomes obtained:
-> Stage 3. Sample germplasm occurrences into the realized niche using different approaches (CWR: Buffer; Landrace: Accessibility + Environment + Geography)
-> Stage 4. Obtain the gap areas to collect germplasm material including planning collecting missions
+> - Stage 3. Sample germplasm occurrences into the realized niche using different approaches (CWR: Buffer; Landrace: Accessibility + Environment + Geography)
+> - Stage 4. Obtain the gap areas to collect germplasm material including planning collecting missions
 > <img width="600" height="300" alt="Diapositiva10" src="https://github.com/user-attachments/assets/d26bc2da-5248-4790-be8c-fc347d0cfad5" />
 
 
 ## Module 4. Preparing strategies to collect new plant materials (3-5 Hours)
 This module introduces post-gap analysis steps,which consist of visualizing the gap analysis results, determining caveats in the results, and finally providing alternatives to gap analysis and possible subsequent steps, such as collecting missions. 
+
 Topics:
 - 4.1. Visualization of gap analysis results
 - 4.2. Determining caveats in results
@@ -472,26 +471,36 @@ Learning outcomes:
 
 ### Topic 4.1. Visualization of gap analysis results
 This section consists of gap analysis visualization and possible tools to determine the validity of the results and collect missions using Google Maps. It includes the use of the Gap Analysis Viewer tool. Nevertheless, the visualization of results can be done using GIS software such as R, ArcGIS or QGIS.
+
 Content:
 - [Gap Analysis Viewer tool introduction]()
+- 
 Web resource:
 - [Gap Analysis Viewer tool]()
+- 
 Tutorial:
 - [Tutorial to upload results to Gap Analysis Viewer tool]()
 
 ### Topic 4.2. Curate gap analysis results
-As a germplasm collector or data analyst, you need to be careful about the outcomes of a gap analysis. After finishing a CWRGA or a LGA go for the following validation questions: 
-Are the potential areas coherent with the previous knowledge of the species? -> (Coherence)
-Are previous collecting areas represented as red in the map? -> (Omission errors)
-Are there missing areas where you know the species is present? - > (Commission errors)
+As a germplasm collector or data analyst, you need to be careful about the outcomes of a gap analysis. 
+
+After finishing a CWRGA or a LGA go for the following validation questions: 
+- Are the potential areas coherent with the previous knowledge of the species? -> (Coherence)
+- Are previous collecting areas represented as red in the map? -> (Omission errors)
+- Are there missing areas where you know the species is present? - > (Commission errors)
+- 
 Please see the following content for more context:
+
 Complementary video:
 - [Differences between Error of Omission and Error of Commission]()
+ 
 Optional:
 - [Limitations and trade-offs in the use of species distribution maps for protected area planning]()
+  
 How to interpret CWRGA results?:
 - [Tutorial to run a Crop Wild Relatives Gap Analysis]()
 - [GapAnalysis: an R package to calculate conservation indicators using spatial information]()
+
 How to interpret LGA results?:
 - [Landrace gap analysis Introduction (Slide 13).]()
 
