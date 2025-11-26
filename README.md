@@ -616,8 +616,8 @@ Foundations (Required literature):
 - [The big four of plant taxonomy – a comparison of global checklists of vascular plant names](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.18961)
 - [A.8. Gap analysis of priority CWR](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/A.8.pdf)
 - [B.8. Gap analysis of priority landraces](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/B.8.pdf)
-### Resource Book for the Preparation of National Plans for Conservation of Crop Wild Relatives and Landraces
-- [Collecting wild potato species (Solanum sect. Petota) in Peru to enhance genetic representation and fill gaps in ex situ collections](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/TEXT_ALL_2511.pdf)
+- [Resource Book for the Preparation of National Plans for Conservation of Crop Wild Relatives and Landraces}(https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/TEXT_ALL_2511.pdf)
+- [Collecting wild potato species (Solanum sect. Petota) in Peru to enhance genetic representation and fill gaps in ex situ collections](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1044718/full)
 - [Phylogenetic diversity and conservation of crop wild relatives in Colombia](https://onlinelibrary.wiley.com/doi/full/10.1111/eva.13295)
 ### Alternatives to gap analysis
 Optional:
