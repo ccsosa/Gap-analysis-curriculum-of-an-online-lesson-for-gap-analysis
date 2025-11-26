@@ -139,10 +139,10 @@ Resources for R and spatial analysis beginners:
 This section is dedicated to the use of geographical information systems (GIS) for germplasm data analysis. Germplasm data have geographical data associated with them, which are not always well described, but they are a milestone in responding to the question of where I need to collect plant material.
 
 Topics:
-- 1.1.) GIS related to plant germplasm conservation
-- 1.2.) Species occurrences Databases
-- 1.3.) How to curate GIS data
-- 1.4) Prepare your data to model a species distribution and for gap analysis
+- 1.1. GIS related to plant germplasm conservation
+- 1.2. Species occurrences Databases
+- 1.3. How to curate GIS data
+- 1.4. Prepare your data to model a species distribution and for gap analysis
 
 Learning outcomes
 - Download germplasm information from databases to perform a gap analysis
@@ -150,14 +150,14 @@ Learning outcomes
 - Establishing some software helpful for GIS tasks in a genebank
 - Curate data to start a gap analysis
 
-### Topic 1.1) GIS related to plant germplasm conservation
+### Topic 1.1. GIS related to plant germplasm conservation
 GIS use is relevant for the development of collecting missions of a plant germplasm bank because each accession of a collection represents the diversity of a group of crop wild relatives or landraces. Therefore, it is important to map the accession collection, including the country, administrative information, and localities.
 
 - A good starting point for the use of GIS in germplasm data is related to the following document
 Concepts:
 [Review. Applications of ecogeography and geographic information systems in conservation and utilization of plant genetic resources](https://sjar.revistas.csic.es/index.php/sjar/article/view/1859)
 
-### Topic 1.2.) Species occurrences databases: 
+### Topic 1.2. Species occurrences databases: 
 Over the decades, geographical biodiversity information has become relevant for conservation and biotechnology. Currently, global initiatives have created open-access databases that can be used to gather occurrence data on plant genetic resources. 
 
 Germplasm databases (need to build a species distribution model): 
@@ -170,7 +170,7 @@ Herbarium databases:
 - [GBIF (Global Biodiversity Information Facility)](https://www.gbif.org/)
 - [iDigBio (Integrated Digitized Biocollections)](https://www.idigbio.org/)
 
-### Topic 1.3) How to curate GIS data from germplasm data or a biodiversity data
+### Topic 1.3. How to curate GIS data from germplasm data or a biodiversity data
 This topic presents a set of useful databases for the curation of plant taxonomics, environment, and coordinates cleaning required for a replicable and high-quality study. 
 - Curation of taxonomic data
 Taxonomy is the most basic level of curation to be provided for a spatial analysis. Species names are not static; they evolve and change according to new molecular and morphological data. Fortunately, there are online taxonomical resources to determine whether your target species is a synonym, an accepted name, or invalid. (e.g. *Pennisetum glaucum* is now *Cenchrus americanus*).
@@ -213,7 +213,7 @@ Taxonomy is the most basic level of curation to be provided for a spatial analys
 > A good raster predictor resolution is usually 5 km. This is convenient for subcontinental to continental scales. We highly advise you to avoid high-resolution rasters, such as 1 km or less, unless it is convenient for your species. The higher the resolution, the greater the computer resources used. 
 
 
-### Topic 1.4) Prepare your data to model a species distribution and for gap analysis
+### Topic 1.4. Prepare your data to model a species distribution and for gap analysis
 Consider the following steps when curating your germplasm passport data (Figure 2). 
 - Step 1.) Define whether your target species is a landrace or a crop wild relatives:
 - Step 2.) Search your data in occurrence databases and split them into germplasm (G) and herbarium for other sources (H).
@@ -271,7 +271,7 @@ Learning outcomes:
 - Obtain insights about model a species distribution model
 - Obtain an SDM as input data for a gap analysis
 
-## Topic 2.1.) What is a niche and what is a species distribution model?, and how to model a species distribution model? (Foundations)
+## Topic 2.1. What is a niche and what is a species distribution model?, and how to model a species distribution model? (Foundations)
 This section introduces the foundations of what is a model and what is a species distribution model using the ODMAP approach: Overview, Data, Model fitting, Assessment, Prediction. Also, this topic includes some examples of modeling a species distribution model using MaxEnt and R
 
 Content and articles:
@@ -298,7 +298,7 @@ Tutorial data:
 Tutorial:
 - [SDM slides tutorial using B. gasipaes data (slides 53-77)]()
 
-## Topic 2.2) Examples using MaxEnt, Wallace, enmsdmX, and ENMEval
+## Topic 2.2. Examples using MaxEnt, Wallace, enmsdmX, and ENMEval
 This section provides a detailed tutorial on modeling species distribution using MaxEnt. MaxEnt is the gold standard algorithm for species distribution because of its capability to use pseudoabsences and only presence records. Thus, some resources are provided to use MaxEnt, such as Wallace. Wallace is an R platform that allows modeling a specific species distribution using a local computer and a Shiny app (a browser-based form to run a program in R, which is convenient for beginner users and for those users new to the modeling tasks. It is provided for advanced users as a tutorial of the package enmSdmX and ENMEval (We highly suggest using this approach to obtain accurate species distribution models). 
 
 Articles and websites:
@@ -314,7 +314,7 @@ Tutorials:
 - [enmSdmX website ]()
 - [ENMeval tutorial]()
 
-## Topic 2.3) Background effect
+## Topic 2.3. Background effect
 Only presence algorithms, such as MaxEnt, allow the use of records curated from biological collections, such as museums, herbariums, or germplasm collections, compared with a set of points in the geographical study area to obtain suitability maps. Nevertheless, the selection of pseudo-absences is critical for obtaining a good model. Thus, the two following lectures are provided for users to know some useful approaches to obtain an accurate species distribution.
 
 Articles:
@@ -324,7 +324,7 @@ Articles:
 
 
 
-## Topic 2.4) Practical use of SDMs in conservation
+## Topic 2.4. Practical use of SDMs in conservation
 In this section, a set of lectures is introduced to teach the learning of ecological reasoning using species distribution in conservation decision uses, as is the case of the ex-situ gap analysis provided in the module three.
 
 Articles:
@@ -364,10 +364,10 @@ Table 1. Comparisons between Crop Wild Relatives (CWRGA) and Landraces Gap Analy
 
 
 Topics:
-- 3.1.) Foundations of Crop Wild relatives gap analysis
-- 3.2.) Introduction to GapAnalysis R package to perform a Crop Wild Relatives Gap Analysis
-- 3.3.) Landraces Gap Analysis foundations
-- 3.4.) Tutorial to perform a Landraces gap analysis using a shiny app
+- 3.1. Foundations of Crop Wild relatives gap analysis
+- 3.2. Introduction to GapAnalysis R package to perform a Crop Wild Relatives Gap Analysis
+- 3.3. Landraces Gap Analysis foundations
+- 3.4. Tutorial to perform a Landraces gap analysis using a shiny app
 
 Learning outcomes:
 - Perform a Crop Wild Relatives gap analysis
@@ -467,9 +467,9 @@ ______________________________________________________
 ## Module 4. Preparing strategies to collect new plant materials (3-5 Hours)
 This module introduces post-gap analysis steps,which consist of visualizing the gap analysis results, determining caveats in the results, and finally providing alternatives to gap analysis and possible subsequent steps, such as collecting missions. 
 Topics:
-- 4.1.) Visualization of gap analysis results
--  4.2.) Determining caveats in results
-- 4.3.) Alternatives to gap analysis:
+- 4.1. Visualization of gap analysis results
+- 4.2. Determining caveats in results
+- 4.3. Alternatives to gap analysis:
 
 Learning outcomes:
 - Visualize gap analysis results
@@ -520,7 +520,7 @@ __________________________________________________________________
 - [x] Visualization online
 - [x] A possible collecting route
 __________________________________________________________________
-### Topic 4.3.) Alternatives to gap analysis
+### Topic 4.3. Alternatives to gap analysis
 As gap analysis consists of occurrence curated data and provides a species distribution model, some alternatives are presented and some pieces of advice are provided for your data such as new methods or countries inventories.
 A distance based method:
 - [A distance-based framework for assessing the ex-situ conservation status of plants]()
