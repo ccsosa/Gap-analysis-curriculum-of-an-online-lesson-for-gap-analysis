@@ -261,17 +261,17 @@ __________________________________________________________________
 ## Module 2. Introduction to species distribution models (16-20 hours)
 A species can inhabit a physical space where it has the ecological conditions to survive. A species distribution model aims to predict the area using the niche concept as a basis. The main task of this module is to find that species distribution.
 Topics:
-2.1.) What is a niche and what is a model?, and how to model a species distribution model? (Foundations)
-2.2.) Examples using Wallace
-2.3.) Background effect
-2.4.) Practical use of SDMs in conservation
+- 2.1.) What is a niche and what is a model?, and how to model a species distribution model? (Foundations)
+- 2.2.) Examples using Wallace
+- 2.3.) Background effect
+- 2.4.) Practical use of SDMs in conservation
 
 Learning outcomes:
-Understanding what is an ecological niche and its use to obtain species distribution
-Obtain insights about model a species distribution model
-Obtain an SDM as input data for a gap analysis
+- Understanding what is an ecological niche and its use to obtain species distribution
+- Obtain insights about model a species distribution model
+- Obtain an SDM as input data for a gap analysis
 
-Topic 2.1.) What is a niche and what is a species distribution model?, and how to model a species distribution model? (Foundations)
+## Topic 2.1.) What is a niche and what is a species distribution model?, and how to model a species distribution model? (Foundations)
 This section introduces the foundations of what is a model and what is a species distribution model using the ODMAP approach: Overview, Data, Model fitting, Assessment, Prediction. Also, this topic includes some examples of modeling a species distribution model using MaxEnt and R
 Content and articles:
 SDM slides
@@ -292,7 +292,7 @@ Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys
 Tutorial:
 SDM slides tutorial using B. gasipaes data (slides 53-77)
 
-Topic 2.2) Examples using MaxEnt, Wallace, enmsdmX, and ENMEval
+## Topic 2.2) Examples using MaxEnt, Wallace, enmsdmX, and ENMEval
 This section provides a detailed tutorial on modeling species distribution using MaxEnt. MaxEnt is the gold standard algorithm for species distribution because of its capability to use pseudoabsences and only presence records. Thus, some resources are provided to use MaxEnt, such as Wallace. Wallace is an R platform that allows modeling a specific species distribution using a local computer and a Shiny app (a browser-based form to run a program in R, which is convenient for beginner users and for those users new to the modeling tasks. It is provided for advanced users as a tutorial of the package enmSdmX and ENMEval (We highly suggest using this approach to obtain accurate species distribution models). 
 Articles and websites:
 Maximum entropy modeling of species geographic distributions
@@ -305,7 +305,7 @@ Wallace R package tutorial
 enmSdmX website 
 ENMeval tutorial
 
-Topic 2.3) Background effect
+## Topic 2.3) Background effect
 Only presence algorithms, such as MaxEnt, allow the use of records curated from biological collections, such as museums, herbariums, or germplasm collections, compared with a set of points in the geographical study area to obtain suitability maps. Nevertheless, the selection of pseudo-absences is critical for obtaining a good model. Thus, the two following lectures are provided for users to know some useful approaches to obtain an accurate species distribution.
 Articles:
 Target-group backgrounds prove effective at correcting sampling bias in Maxent models
@@ -314,15 +314,20 @@ Environmental filters reduce the effects of sampling bias and improve prediction
 
 
 
-Topic 2.4) Practical use of SDMs in conservation
+## Topic 2.4) Practical use of SDMs in conservation
 In this section, a set of lectures is introduced to teach the learning of ecological reasoning using species distribution in conservation decision uses, as is the case of the ex-situ gap analysis provided in the module three.
 Articles:
 Review. Applications of ecogeography and geographic information systems in conservation and utilization of plant genetic resources
 What are the roles of species distribution models in conservation planning?
 Predicting species distributions for conservation decisions
+
 __________________________________________________________________
 Outcomes obtained at this point:
-Stage 2. Obtain the potential distribution of a species considering if it is a landrace or a crop wild relatives
+```diff
++ Stage 2. Obtain the potential distribution of a species considering if it is a landrace or a crop wild relatives
+```
+<img width="600" height="300" alt="Diapositiva8" src="https://github.com/user-attachments/assets/4330c8fc-720d-484e-863c-041075b52343" />
+
 
 __________________________________________________________________
 
@@ -616,7 +621,7 @@ Foundations (Required literature):
 - [The big four of plant taxonomy – a comparison of global checklists of vascular plant names](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.18961)
 - [A.8. Gap analysis of priority CWR](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/A.8.pdf)
 - [B.8. Gap analysis of priority landraces](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/B.8.pdf)
-- [Resource Book for the Preparation of National Plans for Conservation of Crop Wild Relatives and Landraces}(https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/TEXT_ALL_2511.pdf)
+- [Resource Book for the Preparation of National Plans for Conservation of Crop Wild Relatives and Landraces](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/TEXT_ALL_2511.pdf)
 - [Collecting wild potato species (Solanum sect. Petota) in Peru to enhance genetic representation and fill gaps in ex situ collections](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1044718/full)
 - [Phylogenetic diversity and conservation of crop wild relatives in Colombia](https://onlinelibrary.wiley.com/doi/full/10.1111/eva.13295)
 ### Alternatives to gap analysis
