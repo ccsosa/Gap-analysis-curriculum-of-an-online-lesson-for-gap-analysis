@@ -166,7 +166,9 @@ Herbarium databases:
 
 ### Topic 1.3. How to curate GIS data from germplasm data or a biodiversity data
 This topic presents a set of useful databases for the curation of plant taxonomics, environment, and coordinates cleaning required for a replicable and high-quality study. 
-- Curation of taxonomic data
+
+- Curation of taxonomic data:
+  
 Taxonomy is the most basic level of curation to be provided for a spatial analysis. Species names are not static; they evolve and change according to new molecular and morphological data. Fortunately, there are online taxonomical resources to determine whether your target species is a synonym, an accepted name, or invalid. (e.g. *Pennisetum glaucum* is now *Cenchrus americanus*).
 
   Web resources:
@@ -180,17 +182,19 @@ Taxonomy is the most basic level of curation to be provided for a spatial analys
   - [TNRS tutorial (English)](https://cyverse-taxonomic-name-resolution-service-tutorial.readthedocs-hosted.com/en/latest/)
 
 - Curation of geographical coordinates data:
+  
   Curation of geographical coordinates refers to the process of clean coordinates and only retains the useful data for your analysis purposes. In this step you can learn how to detect inconsistencies in geographical coordinates
 
 - Curation of coordinates data tutorial:
   
   Concepts:
-    - [The influence of spatial errors in species occurrence data used in distribution models](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2007.01408.x)
+  - [The influence of spatial errors in species occurrence data used in distribution models](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2007.01408.x)
 
   Tutorial
-    - [Curation of coordinates data tutorial]()
+  - [Curation of coordinates data tutorial](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/Day_3_Main_coordinate_issues.pptx.pdf)
 
-  - Curation of environmental information
+- Curation of environmental information:
+  
   Given that gap analysis requires the production of a Species Distribution model, the use of a set of predictors representing environmental conditions is required. Here, spatial predictors can be obtained as follows:
 
   Web resources:
@@ -218,6 +222,7 @@ Consider the following steps when curating your germplasm passport data (Figure 
 - Step 4.) Format your data for a species distribution and gap analysis
   
 <img width="1020" height="931" alt="image" src="https://github.com/user-attachments/assets/71452dde-11a6-437a-9e7f-7e9dedd958eb" />
+
 **Figure 2.** Workflow to curate and clean up geographical records from species occurrences databases consisting of four steps: Step 1.) Define whether your target species is a landrace or a crop wild relative. Step 2.) Search your data in occurrences databases and split in germplasm (G) and Herbarium for other sources (H). Step 3.) Proceed to clean your occurrence data. Step 4.) Format your data for a species distribution and gap analysis
 
 Curation steps
@@ -244,8 +249,6 @@ Data sources:
   - [Triticum turgidum example for a LGA](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/triticum_turgidum_to_process.csv)
   Tutorial:
   - [Formatting data for a species distribution models and gap analysis](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/Occurrences%20data%20tutorial.pptx.pdf)
-
-
 
 > # Outcomes obtained for module 1:
 > Stage 1. Obtain Species occurrences (Germplasm + Herbarium data in a geographical space
