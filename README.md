@@ -108,10 +108,10 @@ A gap analysis, either a Crop Wild Relative Gap Analysis (CWRGA) or Landrace Gap
 > Gap Analysis is often performed in the R programming language. Many examples and resources in this curriculum are in R.
 > If needed, please refer to the following guides for installing R, RStudio, and the necessary packages.
 > 
-> - [R guide to download and install packages](https://docs.google.com/presentation/d/1WdPLXbF8SgQmcibXHRLtXbKi-3TDoPN_/edit?slide=id.p1#slide=id.p1).
-> - Spatial analysis in R 
-Using Spatial Data with R
-Spatial Data Science with R and “terra”
+> - [R guide to download and install packages](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Pre-course%20Mini%20Bootcamp/Day_2-R_basics.pdf)
+> - [Spatial analysis in R](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Pre-course%20Mini%20Bootcamp/Introduction%20to%20spatial%20analysis%20in%20R.pdf)
+> - [Using Spatial Data with R](https://cengel.github.io/R-spatial/)
+> - [Spatial Data Science with R and “terra”](https://rspatial.org/)
 
 
 
