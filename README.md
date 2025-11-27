@@ -38,10 +38,10 @@ Upon completing this curriculum, learners will:
 # Checklist
 
 ## Computer requirements
-Operating System: Windows 10 (minimum), Linux or MacOS
-Memory (RAM): 8 GB of RAM at least
-Storage: Enough space on disk (At least 100 GB)
-Permissions: You must have Administrative rights to install software
+- [x] Operating System: Windows 10 (minimum), Linux or MacOS
+- [x] Memory (RAM): 8 GB of RAM at least
+- [x] Storage: Enough space on disk (At least 100 GB)
+- [x] Permissions: You must have Administrative rights to install software
 
 ## Core Software
 - [x] R Software
