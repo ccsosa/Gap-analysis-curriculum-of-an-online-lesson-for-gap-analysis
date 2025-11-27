@@ -68,6 +68,7 @@ In this module, learners will be able to download and visualize geographical ger
   - 1.2. Species occurrences databases
   - 1.3. How to curate GIS data
   - 1.4. Preparing data for species distribution models and gap analysis
+    
 - ### Module 2. Introduction to Species Distribution Models
 In the second module, the learners will learn to understand and apply ecological niche concept and species distribution models (SDMs) to obtain inputs for gap analysis to identify potential collecting areas as well as to use different pseudo-absences methods.
   - 2.1. What is a niche and what is a species distribution model? and how to model a species distribution model?
