@@ -252,6 +252,7 @@ Data sources:
   - [Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys for wallace (SDM)](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/occurrences.csv)
   - [Cucurbita species from GapAnalysis R package example (CWRGA)](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/CWRGA_input_format.csv)
   - [Triticum turgidum example for a LGA](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/triticum_turgidum_to_process.csv)
+    
   Tutorial:
   - [Formatting data for a species distribution models and gap analysis](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/Occurrences%20data%20tutorial.pptx.pdf)
 
@@ -346,7 +347,6 @@ Articles:
 A gap analysis in genebanks is a systematic method aimed at identifying deficiencies in the representation of genetic resources, specifically plant germplasm within ex situ conservation collections. This analysis targets both the geographical and genetic representation of accessions, assisting genebanks in prioritizing the collection efforts for Crop Wild Relatives and landraces. Before start your journey to obtain areas for collecting please check the following table (Table 1) that compare Crop Wild Relatives and Landraces Gap Analysis approaches
 
 **Table 1.** Comparisons between Crop Wild Relatives (CWRGA) and Landraces Gap Analysis (LGA) approaches using nine categories of use.
-### Comparison Table: Crop Wild Relatives vs. Landraces
 
 | **Category**              | **Crop Wild Relatives**                                                                 | **Landraces**                                                                                                                     |
 |---------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -421,6 +421,7 @@ __________________________________________________________________
 - [x] Final Conservation Score tables (Metrics)
 - [x] Gap map
 __________________________________________________________________
+
 ### Topic 3.3. Landraces Gap Analysis foundations
 This section introduces the concept of a Landraces gap analysis (LGA) using a presentation and it provides the differences between CWRGA and LGA approaches.
 
@@ -446,7 +447,7 @@ __________________________________________________________________
 ## Steps required for a landrace gap analysis:
 
 Template:
--[ Step 0: Prepare your data according this occurrences template](https://docs.google.com/spreadsheets/d/1nV5US_WK8u6AZVpl89jHzVGm8CvOd5xD/edit?gid=2008329946#gid=2008329946)
+- [Step 0: Prepare your data according this occurrences template](https://docs.google.com/spreadsheets/d/1nV5US_WK8u6AZVpl89jHzVGm8CvOd5xD/edit?gid=2008329946#gid=2008329946)
 
 Software:
 - [Step 1: Download LGA toolbox (Total size: 3.8GB](https://drive.google.com/file/d/1hrvawDS8yN-OaARUBhXbe13eF6J5kpOB/view)
@@ -522,7 +523,7 @@ How to interpret CWRGA results?:
 How to interpret LGA results?:
 - [Landrace gap analysis Introduction (Slide 13).](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Gap_analysis/Day_5-Landrace_gap_analysis_intro.pptx.pdf)
 
-#### Caveats (Table 2):
+#### Caveats related to CWRGA and LGA (Table 2):
 
 **Table 2.** Possible caveats reported for Crop Wild Relatives Gap Analysis (CWRGA) and Landraces Gap analysis (LGA).
 | Common pitfalls             | CWRGA                                                                                                                                                        | LGA                                                                           |
@@ -536,19 +537,21 @@ How to interpret LGA results?:
 | Sources                     | CWR are easier to identify in databases than landraces. Please be careful                                                                                    | Landraces need to grouped in clusters or use the complete species information |
 | Geographical extent         | Limited to native areas                                                                                                                                      | Dependent of the user needs                                                   |
 
-
+__________________________________________________________________
 ## Gap analysis curation and visualization checklist
+
 - [x] Gap analysis raster files
 - [x] Visualization online
 - [x] A possible collecting route
 __________________________________________________________________
+
 ### Topic 4.3. Alternatives to gap analysis
-As gap analysis consists of occurrence curated data and provides a species distribution model, some alternatives are presented and some pieces of advice are provided for your data such as new methods or countries inventories.
+As a gap analysis consists of occurrence curated data and provides a species distribution model, some alternatives are presented and some pieces of advice are provided for your data such as new methods or countries inventories.
 
 A distance based method:
 - [A distance-based framework for assessing the ex-situ conservation status of plants](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0324820)
   
-In-situ Gap Analysis
+In-situ Gap Analysis:
 - [Comprehensiveness of conservation of useful wild plants: An operational indicator for biodiversity and sustainable development targets](https://www.sciencedirect.com/science/article/pii/S1470160X18308781)
 - [Ecological Gap Analysis](https://www.cbd.int/protected-old/gap.shtml)
 
@@ -574,12 +577,13 @@ __________________________________________________________________
 # PART III. Bibliography
 
 In this section, you will find relevant literature, optional and recommended, related to the modules and topics that can enrich the experience of the analysis with real examples and applications in several food crops.
-Foundations (Required literature):
 
-## Crop Wild Relatives gap analysis (Required literature)
+## Foundations (Required literature):
+
+### Crop Wild Relatives gap analysis (Required literature)
 - [A Gap Analysis Methodology for Collecting Crop Genepools: A Case Study with Phaseolus Beans](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013497)
 
-## Landraces gap analysis (Required literature):
+### Landraces gap analysis (Required literature):
 - [A gap analysis modelling framework to prioritize collecting for ex situ conservation of crop landraces](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13046)
 
 ## Landraces and Crop Wild Relatives related bibliography (Recommended)
