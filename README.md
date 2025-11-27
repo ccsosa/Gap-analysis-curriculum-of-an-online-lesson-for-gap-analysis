@@ -338,7 +338,9 @@ Articles:
 > <img width="600" height="300" alt="Diapositiva8" src="https://github.com/user-attachments/assets/4330c8fc-720d-484e-863c-041075b52343" />
 
 ---
+
 # PART II. Gap Analysis
+
 ## Module 3. Gap Analysis (10-12 hours)
 A gap analysis in genebanks is a systematic method aimed at identifying deficiencies in the representation of genetic resources, specifically plant germplasm within ex situ conservation collections. This analysis targets both the geographical and genetic representation of accessions, assisting genebanks in prioritizing the collection efforts for Crop Wild Relatives and landraces. Before start your journey to obtain areas for collecting please check the following table (Table 1) that compare Crop Wild Relatives and Landraces Gap Analysis approaches
 
@@ -450,7 +452,7 @@ Steps:
 - Step 2: Unzip LGA toolbox 
 - Step 3: Put your occurrence data in a CSV file
   
-- [Tutorial : (Steps 4 to 9)](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Gap_analysis/Tutorial%20to%20perform%20a%20Landraces%20ex-situ%20gap%20analysis.pptx.pdf)
+[Tutorial : (Steps 4 to 9)](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Gap_analysis/Tutorial%20to%20perform%20a%20Landraces%20ex-situ%20gap%20analysis.pptx.pdf)
 - Step 4: Start your LGA toolbox
 - Step 5: Create your outcomes folder
 - Step 6: Preprocessing: Upload occurrence data, Select areas, and curate coordinate
@@ -462,7 +464,7 @@ __________________________________________________________________
 - [x] HTML Report 
 - [x] Gap map with three assessment layers
 - [x] Coverage metrics
-
+__________________________________________________________________
 > # Outcomes obtained:
 > - Stage 3. Sample germplasm occurrences into the realized niche using different approaches (CWR: Buffer; Landrace: Accessibility + Environment + Geography)
 > - Stage 4. Obtain the gap areas to collect germplasm material including planning collecting missions
@@ -531,7 +533,7 @@ How to interpret LGA results?:
 | Sources                     | CWR are easier to identify in databases than landraces. Please be careful                                                                                    | Landraces need to grouped in clusters or use the complete species information |
 | Geographical extent         | Limited to native areas                                                                                                                                      | Dependent of the user needs                                                   |
 
-__________________________________________________________________
+
 ## Gap analysis curation and visualization checklist
 - [x] Gap analysis raster files
 - [x] Visualization online
@@ -563,7 +565,9 @@ __________________________________________________________________
 - [x] Detect possible alternatives for an ex-situ gap analysis
 
 ---
+
 # PART III. Bibliography
+
 In this section, you will find relevant literature, optional and recommended, related to the modules and topics that can enrich the experience of the analysis with real examples and applications in several food crops.
 Foundations (Required literature):
 
@@ -584,7 +588,7 @@ Foundations (Required literature):
 - [Global conservation priorities for crop wild relatives | Nature Plants ](https://www.nature.com/articles/nplants201622)
 - [Frontiers | Ecogeography and utility to plant breeding of the crop wild relatives of sunflower (Helianthus annuus L.)](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2015.00841/full)
 - [Crop wild relatives of pigeonpea [Cajanus cajan (L.) Millsp.]: Distributions, ex situ conservation status, and potential genetic resources for abiotic stress tolerance - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0006320715000531?via%3Dihub)
-- [Frontiers | Distributions, ex situ conservation priorities, and genetic resource potential of crop wild relatives of sweetpotato [Ipomoea batatas (L.) Lam., I. series Batatas](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2015.00251/full)
+- [Frontiers | Distributions, ex situ conservation priorities, and genetic resource potential of crop wild relatives of sweetpotato Ipomoea batatas (L.) Lam., I. series Batatas](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2015.00251/full)
 - [Modelled distributions and conservation status of the wild relatives of chile peppers (Capsicum L.)](https://onlinelibrary.wiley.com/doi/10.1111/ddi.13008)
 - [In-situ and ex-situ conservation priorities and distribution of lentil wild relatives under climate change: A modelling approach](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.14842)
 ### Landraces:
