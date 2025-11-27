@@ -72,6 +72,8 @@ This document follows the logical sequence shown in Figure 1, which describes th
 **Figure 1.** Steps to conduct a gap analysis. This figure is mainly focused on crop wild relatives gap analysis but conceptually describes the foundations of landrace analysis as well. A.) Obtain Species occurrences (Germplasm + Herbarium data visualized in a geographical space) B.) Model the species distribution model (white rectangle) into the possible geographical space, represented in blue. C.) Creating buffers around the germplasm occurrences into the realized niche or available space for a species and D.) A representation of places to collect germplasm samples represented in gray into the species distribution model.
 </p>
 
+---
+---
 
 # Curriculum structure
 The curriculum structure consists of the following:
