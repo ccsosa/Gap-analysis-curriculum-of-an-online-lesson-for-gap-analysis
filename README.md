@@ -16,6 +16,9 @@ Nevertheless, the adoption of a Gap Analysis approach requires the use of ecolog
 [^2]: Ramírez-Villegas, J., Khoury, C., Jarvis, A., Debouck, D. G., & Guarino, L. (2010). A Gap Analysis Methodology for Collecting Crop Genepools: A Case Study with Phaseolus Beans. PLOS ONE, 5(10), e13497-e13497.
 [^3]: Ramirez‐Villegas, J., Khoury, C. K., Achicanoy, H. A., Mendez, A. C., Diaz, M. V., Sosa, C. C., Debouck, D. G., Kehel, Z., & Guarino, L. (2020). A gap analysis modelling framework to prioritize collecting for ex situ conservation of crop landraces. Diversity and Distributions, 26(6), 730-742. https://doi.org/10.1111/ddi.13046
 
+---
+---
+
 ## Curriculum objective
 <p align="justify">
 The objective of this curriculum is to provide learners with a comprehensive set of concepts, tools, and practical resources to learn and apply gap analysis methodologies.Through a combination of GIS tools, species distribution modeling, data curation techniques, and structured analytical frameworks, learners will acquire the skills necessary to preprocess occurrence data, model potential distributions, compute gap analysis indicators, and interpret results to support genebank collecting strategies for Crop Wild Relatives (CWR) and Landraces.
@@ -110,6 +113,7 @@ In this module, learners will visualize and curate gap analysis results using th
   - 4.3. Alternatives to gap analysis
 
 ## PART III. Bibliography
+---
 ---
 
 ## Stages of the gap analysis:
