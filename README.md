@@ -291,7 +291,7 @@ Tutorial:
 - [A very brief introduction to species distribution models in R](https://jcoliver.github.io/learn-r/011-species-distribution-models.html)
   
 Threshold article (Recommended)
-- [Multiple Threshold-Selection Methods Are Needed to Binarise Species Distribution Model Predictions]([)](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.70019)
+- [Multiple Threshold-Selection Methods Are Needed to Binarise Species Distribution Model Predictions](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.70019)
   
 Optional articles:
 - [On the selection of thresholds for predicting species occurrence with presence‐only data](https://onlinelibrary.wiley.com/doi/10.1002/ece3.1878)
