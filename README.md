@@ -92,25 +92,28 @@ In this module, learners will visualize and curate gap analysis results using th
   -  4.2. Determining caveats in results
   - 4.3. Alternatives to gap analysis
 
-# PART III. Bibliography
-
+## PART III. Bibliography
+---
 ## Stages of the gap analysis:
 A gap analysis, either a Crop Wild Relative Gap Analysis (CWRGA) or Landrace Gap Analysis (LGA), can be divided into four stages: 
  1) Preprocessing (obtain species occurrence data, curate taxonomy, and obtain environmental predictors). 
  2) Species distribution models. 
  3) Sample germplasm to obtain the gap areas to be collected. 
  4) Curate results and prepare collection missions. In consequence, each of the four modules here presented represent each of the stages here presented
-
+    
+__________________________________________________________________
 ## Inputs data checklist
 - [X] Geographical occurrences obtained from germplasm accessions
 - [X] Environmental predictors obtained from different databases
 - [X] Shapefiles of the geographical area to be studied (Crop Wild Relatives)
-      
+__________________________________________________________________  
+
 ## Stage checklist
 - [X] Stage 1. Obtain Species occurrences (Germplasm + Herbarium data in a geographical space)
 - [X] Stage 2. Obtain the potential distribution of a species considering if it is a landrace or a crop wild relative to work as a reference to know what the potential area is to be collected
 - [X] Stage 3. Sample germplasm occurrences into the realized niche using different approaches (CWR: Buffer; Landrace: Accessibility + Environment + Geography)
 - [X] Stage 4. Obtain the gap areas to collect germplasm material including planning collecting missions
+__________________________________________________________________
 
 > [!Note]
 > Gap Analysis is often performed in the R programming language. Many examples and resources in this curriculum are in R.
