@@ -681,7 +681,7 @@ Optional:
 - [Crop Wild Relatives Gap Analysis R package v2.0](https://github.com/CIAT-DAPA/GapAnalysis)
 - [Crop Wild Relatives Gap Analysis R package v1.0](https://github.com/ccsosa/GapAnalysis)
 - [Crop Wild Relatives Gap Analysis + Species distribution model workflow](https://github.com/alliance-datascience/bolder-gapanalysis-cwr/tree/dev)
-- 
+  
 ---
 ---
 ---
