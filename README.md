@@ -90,9 +90,9 @@ In this module, learners will visualize and curate gap analysis results using th
   -  4.2. Determining caveats in results
   - 4.3. Alternatives to gap analysis
 
-## PART III. Bibliography
+# PART III. Bibliography
 
-# Stages of the gap analysis:
+## Stages of the gap analysis:
 A gap analysis, either a Crop Wild Relative Gap Analysis (CWRGA) or Landrace Gap Analysis (LGA), can be divided into four stages: 
  1) Preprocessing (obtain species occurrence data, curate taxonomy, and obtain environmental predictors). 
  2) Species distribution models. 
