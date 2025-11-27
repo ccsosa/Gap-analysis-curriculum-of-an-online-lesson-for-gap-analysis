@@ -622,6 +622,7 @@ Foundations (Required literature):
 - [Collecting wild potato species (Solanum sect. Petota) in Peru to enhance genetic representation and fill gaps in ex situ collections](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1044718/full)
 - [Phylogenetic diversity and conservation of crop wild relatives in Colombia](https://onlinelibrary.wiley.com/doi/full/10.1111/eva.13295)
 ### Alternatives to gap analysis
+
 Optional:
-A- [ set of simple decision matrices for prioritizing collection of rare plant species for ex situ conservation](https://www.sciencedirect.com/science/article/abs/pii/S0006320705003721)
+- [A set of simple decision matrices for prioritizing collection of rare plant species for ex situ conservation](https://www.sciencedirect.com/science/article/abs/pii/S0006320705003721)
 
