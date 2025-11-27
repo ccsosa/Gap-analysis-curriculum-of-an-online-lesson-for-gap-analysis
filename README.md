@@ -416,7 +416,8 @@ Code:
 > [!Warning]
 > The CWRGA requires germplasm data. In the lack of germplasm data, your target species must be considered as an urgent priority to collect.
 
-#### CWR outcomes checklist
+__________________________________________________________________
+#### CWRGA outcomes checklist
 - [x] Final Conservation Score tables (Metrics)
 - [x] Gap map
 __________________________________________________________________
