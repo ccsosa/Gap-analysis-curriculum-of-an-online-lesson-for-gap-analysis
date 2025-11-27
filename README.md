@@ -111,6 +111,7 @@ In this module, learners will visualize and curate gap analysis results using th
 
 ## PART III. Bibliography
 ---
+
 ## Stages of the gap analysis:
 A gap analysis, either a Crop Wild Relative Gap Analysis (CWRGA) or Landrace Gap Analysis (LGA), can be divided into four stages: 
  1) Preprocessing (obtain species occurrence data, curate taxonomy, and obtain environmental predictors). 
@@ -148,7 +149,8 @@ Resources for R and spatial analysis beginners:
   - [Spatial Data Science with R and “terra”](https://rspatial.org/)
 
 ---
-
+---
+---
 # PART I Use of GIS Tools in Planning Germplasm Conservation
 
 ## Module 1: The use of GIS tools in planning conservation (12 - 14 hours)
@@ -368,7 +370,8 @@ Articles:
 > <img width="600" height="300" alt="Diapositiva8" src="https://github.com/user-attachments/assets/4330c8fc-720d-484e-863c-041075b52343" />
 
 ---
-
+---
+---
 # PART II. Gap Analysis
 
 ## Module 3. Gap Analysis (10-12 hours)
@@ -601,7 +604,8 @@ __________________________________________________________________
 - [x] Detect possible alternatives for an ex-situ gap analysis
 
 ---
-
+---
+---
 # PART III. Bibliography
 
 In this section, you will find relevant literature, optional and recommended, related to the modules and topics that can enrich the experience of the analysis with real examples and applications in several food crops.
