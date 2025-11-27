@@ -3,18 +3,23 @@
 _Version 1. (November 2025)_
 
 ## Introduction
+
+<p align="justify">
 Germplasm banks play a key role in global food security by safeguarding plant genetic resources (PGR) with the potential to adapt modern crops to climate change conditions, human activities affecting agricultural lands, or the appearance of pests and diseases. PGR are a cornerstone of modern plant breeding, providing the introgression of useful traits such as pest resistance and adaptation to extreme climate conditions, as well as serving as a reservoir of genetic diversity in plants. Consequently, PGR collecting and conservation initiatives are increasingly vital in a changing world, where demands for enhanced food production and nutrition are urgent.
 
 The rapid expansion of plant genetic resource conservation initiatives requires the adoption of knowledge-based robust tools and methods to identify under-represented segments of crop genepools or landraces within global and national collections, such as Gap Analysis. The Gap analysis technique identifies areas in which elements of biodiversity are represented and compared with existing information to identify areas to be protected and conceptualized for Crop Wild Relatives (CWRGA) and landrace (LGA) information [^1][^2][^3].
 
 Nevertheless, the adoption of a Gap Analysis approach requires the use of ecological reasoning to produce a species distribution model (SDM), which uses ecological niche theory, geographical information system (GIS) tools, geographical data curation, and programming skills, which makes its adoption difficult. Thus, the objective of this document is to provide a curriculum with learning material to acquire the required skills to produce, interpret, and apply Gap Analysis results to contribute to PGR conservation.
+</p>
 
 [^1]: Maxted, N., Dulloo, E., V Ford-Lloyd, B., Iriondo, J. M., & Jarvis, A. (2008). Gap analysis: A tool for complementary genetic conservation assessment. Diversity and Distributions, 14(6), 1018-1030. https://doi.org/10.1111/j.1472-4642.2008.00512.x
 [^2]: Ramírez-Villegas, J., Khoury, C., Jarvis, A., Debouck, D. G., & Guarino, L. (2010). A Gap Analysis Methodology for Collecting Crop Genepools: A Case Study with Phaseolus Beans. PLOS ONE, 5(10), e13497-e13497.
 [^3]: Ramirez‐Villegas, J., Khoury, C. K., Achicanoy, H. A., Mendez, A. C., Diaz, M. V., Sosa, C. C., Debouck, D. G., Kehel, Z., & Guarino, L. (2020). A gap analysis modelling framework to prioritize collecting for ex situ conservation of crop landraces. Diversity and Distributions, 26(6), 730-742. https://doi.org/10.1111/ddi.13046
 
 ## Curriculum objective
+<p align="justify">
 The objective of this curriculum is to provide learners with a comprehensive set of concepts, tools, and practical resources to learn and apply gap analysis methodologies.Through a combination of GIS tools, species distribution modeling, data curation techniques, and structured analytical frameworks, learners will acquire the skills necessary to preprocess occurrence data, model potential distributions, compute gap analysis indicators, and interpret results to support genebank collecting strategies for Crop Wild Relatives (CWR) and Landraces.
+</p>
 
 ## Main learning competencies
 - Develop the ability to apply spatial thinking to interpret, analyze, and synthesize geographic distribution patterns, identify sampling gaps in collections, and prioritize conservation areas using GIS tools as cognitive mediators
@@ -52,12 +57,18 @@ Upon completing this curriculum, learners will:
 - [x] QGIS (Suggested for GIS visualization)
 
 ## How to use this document
+<p align="justify">
 This document follows the logical sequence shown in Figure 1, which describes the four stages of conducting a gap analysis. Stages 1 and 2 are described in the first two modules, and Stages 3 and 4 are described in Module 3. Along with the document, you will find resources such as tutorials, presentations, videos, and software to obtain gap analysis results.
+</p>
 <p align="center">
   <img width="640" height="360" alt="Presentación1" src="https://github.com/user-attachments/assets/397c8f67-c624-437e-b83a-8788da23772f" />
 </p>
 
-**Figure 1.** Steps to conduct a gap analysis. This figure is mainly focused on crop wild relatives gap analysis but conceptually describes the foundations of landrace analysis as well. A.) Obtain Species occurrences (Germplasm + Herbarium data visualized in a geographical space) B.) Model the species distribution model (white rectangle) into the possible geographical space, represented in blue. C.) Creating buffers around the germplasm occurrences into the realized niche or available space for a species and D.) A representation of places to collect germplasm samples represented in gray into the species distribution model
+<p align="justify">
+  
+**Figure 1.** Steps to conduct a gap analysis. This figure is mainly focused on crop wild relatives gap analysis but conceptually describes the foundations of landrace analysis as well. A.) Obtain Species occurrences (Germplasm + Herbarium data visualized in a geographical space) B.) Model the species distribution model (white rectangle) into the possible geographical space, represented in blue. C.) Creating buffers around the germplasm occurrences into the realized niche or available space for a species and D.) A representation of places to collect germplasm samples represented in gray into the species distribution model.
+</p>
+
 
 # Curriculum structure
 The curriculum structure consists of the following:
@@ -233,8 +244,10 @@ Consider the following steps when curating your germplasm passport data (Figure 
   <img width="510" height="466" alt="image" src="https://github.com/user-attachments/assets/71452dde-11a6-437a-9e7f-7e9dedd958eb" />
 </p>
 
-**Figure 2.** Workflow to curate and clean up geographical records from species occurrences databases consisting of four steps: Step 1.) Define whether your target species is a landrace or a crop wild relative. Step 2.) Search your data in occurrences databases and split in germplasm (G) and Herbarium for other sources (H). Step 3.) Proceed to clean your occurrence data. Step 4.) Format your data for a species distribution and gap analysis
-
+<p align="justify">
+  
+**Figure 2.** Workflow to curate and clean up geographical records from species occurrences databases consisting of four steps: Step 1.) Define whether your target species is a landrace or a crop wild relative. Step 2.) Search your data in occurrences databases and split in germplasm (G) and Herbarium for other sources (H). Step 3.) Proceed to clean your occurrence data. Step 4.) Format your data for a species distribution and gap analysis.
+</p>
 - _Step 1.) Define whether your target species is a landrace or a crop wild relatives:_
 - _Step 2.) Search your data in occurrence databases and split them into germplasm (G) and herbarium for other sources (H)_
 - _Step 3.) Proceed to clean up your occurrences data_
