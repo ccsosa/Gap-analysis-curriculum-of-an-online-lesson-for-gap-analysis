@@ -383,7 +383,7 @@ Slides:
 Articles:
 - [A Gap Analysis Methodology for Collecting Crop Genepools: A Case Study with Phaseolus Beans](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013497)
 
-### topic 3.2. Introduction to GapAnalysis R package to perform a Crop Wild Relatives Gap Analysis
+### Topic 3.2. Introduction to GapAnalysis R package to perform a Crop Wild Relatives Gap Analysis
 CWRGA is usually performed using an R package named GapAnalysis which is a compendium of the R code developed by the International Center for Tropical Agriculture (CIAT) for a decade. This topic introduces a tutorial step-by-step via the GapAnalysis R package and an example using Cucurbita cordata data.
 
 __________________________________________________________________
@@ -465,7 +465,7 @@ __________________________________________________________________
 - [x] Gap map with three assessment layers
 - [x] Coverage metrics
 __________________________________________________________________
-> # Outcomes obtained:
+> # Outcomes obtained for module 3:
 > - Stage 3. Sample germplasm occurrences into the realized niche using different approaches (CWR: Buffer; Landrace: Accessibility + Environment + Geography)
 > - Stage 4. Obtain the gap areas to collect germplasm material including planning collecting missions
 > <img width="600" height="300" alt="Diapositiva10" src="https://github.com/user-attachments/assets/d26bc2da-5248-4790-be8c-fc347d0cfad5" />
