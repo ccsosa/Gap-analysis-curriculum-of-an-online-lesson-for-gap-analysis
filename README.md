@@ -231,17 +231,17 @@ Consider the following steps when curating your germplasm passport data (Figure 
 
 **Figure 2.** Workflow to curate and clean up geographical records from species occurrences databases consisting of four steps: Step 1.) Define whether your target species is a landrace or a crop wild relative. Step 2.) Search your data in occurrences databases and split in germplasm (G) and Herbarium for other sources (H). Step 3.) Proceed to clean your occurrence data. Step 4.) Format your data for a species distribution and gap analysis
 
-- Step 1.) Define whether your target species is a landrace or a crop wild relatives:
-- Step 2.) Search your data in occurrence databases and split them into germplasm (G) and herbarium for other sources (H).
-- Step 3.) Proceed to clean up your occurrences data 
-- Step 4.) Format your data for a species distribution and gap analysis
+- _Step 1.) Define whether your target species is a landrace or a crop wild relatives:_
+- _Step 2.) Search your data in occurrence databases and split them into germplasm (G) and herbarium for other sources (H)_
+- _Step 3.) Proceed to clean up your occurrences data_
+- _Step 4.) Format your data for a species distribution and gap analysis_
   
 #### Curation steps:
-- Step 1.) Define if your target species is a landrace or a crop wild relative:
+- _Step 1.) Define if your target species is a landrace or a crop wild relative:_
 Content:
   - [What is a Crop Wild Relative?](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/A.1.pdf)
   - [What is a landrace?](https://www.fao.org/fileadmin/templates/agphome/documents/PGR/PubPGR/ResourceBook/B.1.pdf)
-- Step 2.) Search your data in occurrences databases and split in germplasm (G) and Herbarium for other sources (H).
+- _Step 2.) Search your data in occurrences databases and split in germplasm (G) and Herbarium for other sources (H)_
 Data sources:
   - [GBIF](https://www.gbif.org/data-processing)
   - [Genesys](https://www.genesys-pgr.org/documentation/basics)
@@ -250,14 +250,14 @@ Data sources:
   Tutorial:
   - [Downloading data for a landraces gap analysis from public databases](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/passport_data_retrieval_guide.pdf)
 
-- Step 3.) Proceed to clean up your occurrences data 
+- _Step 3.) Proceed to clean up your occurrences data_
   Tutorials:
   - [Cleaning up your coordinates using Cleancoordinates R package](https://ropensci.github.io/CoordinateCleaner/articles/Cleaning_GBIF_data_with_CoordinateCleaner.html)
   - [How to use an API to clean up occurrences data: (Geographical Quality Score)](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/Geographical_quality_score.pptx.pdf)
   Tutorial data and R code example:
   - [Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/occurrences.csv)
   - [Bactris gasipaes cleaning coordinates using CoordinateCleaner](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/CLEAN_COORDS.R)
-- Step 4.) Format your data for a species distribution and gap analysis
+- _Step 4.) Format your data for a species distribution and gap analysis_
   Tutorial data and template examples:
   - [Bactris gasipaes occurrence data from GBIF, WIEWS, and Genesys for wallace (SDM)](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/occurrences.csv)
   - [Cucurbita species from GapAnalysis R package example (CWRGA)](https://github.com/ccsosa/Gap-analysis-curriculum-of-an-online-lesson-for-gap-analysis/blob/main/MATERIAL/Curation/CWRGA_input_format.csv)
