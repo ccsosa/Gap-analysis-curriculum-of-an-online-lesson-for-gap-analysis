@@ -224,17 +224,18 @@ Taxonomy is the most basic level of curation to be provided for a spatial analys
 
 ### Topic 1.4. Prepare your data to model a species distribution and for gap analysis
 Consider the following steps when curating your germplasm passport data (Figure 2). 
-- Step 1.) Define whether your target species is a landrace or a crop wild relatives:
-- Step 2.) Search your data in occurrence databases and split them into germplasm (G) and herbarium for other sources (H).
-- Step 3.) Proceed to clean up your occurrences data 
-- Step 4.) Format your data for a species distribution and gap analysis
-  
+
  <p align="center"> 
   <img width="510" height="466" alt="image" src="https://github.com/user-attachments/assets/71452dde-11a6-437a-9e7f-7e9dedd958eb" />
 </p>
 
 **Figure 2.** Workflow to curate and clean up geographical records from species occurrences databases consisting of four steps: Step 1.) Define whether your target species is a landrace or a crop wild relative. Step 2.) Search your data in occurrences databases and split in germplasm (G) and Herbarium for other sources (H). Step 3.) Proceed to clean your occurrence data. Step 4.) Format your data for a species distribution and gap analysis
 
+- Step 1.) Define whether your target species is a landrace or a crop wild relatives:
+- Step 2.) Search your data in occurrence databases and split them into germplasm (G) and herbarium for other sources (H).
+- Step 3.) Proceed to clean up your occurrences data 
+- Step 4.) Format your data for a species distribution and gap analysis
+  
 #### Curation steps:
 - Step 1.) Define if your target species is a landrace or a crop wild relative:
 Content:
