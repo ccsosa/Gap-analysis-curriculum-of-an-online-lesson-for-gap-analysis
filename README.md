@@ -62,7 +62,7 @@ This document follows the logical sequence shown in Figure 1, which describes th
 # Curriculum structure
 The curriculum structure consists of the following:
 
-## PART I Use of GIS Tools in Planning Germplasm Conservation
+## PART I. Use of GIS Tools in Planning Germplasm Conservation
  Use of GIS tools in planning germplasm conservation, including GIS use in germplasm bank collection data and model species distribution models using existing databases available online, which is divided into two modules:
 - ### Module 1. The Use of GIS Tools in Planning Conservation
 In this module, learners will be able to download and visualize geographical germplasm data. Gain skills to curate and prepare GIS data for species distribution modeling and gap analysis. Understand the relevance of GIS in plant germplasm conservation, and curate geographical, taxonomic and obtain environmental data to be used in species distribution models (SDMs), and gap analysis
