@@ -554,9 +554,11 @@ In-situ Gap Analysis
 
 Data:
 - [Data for the calculation of an indicator of the comprehensiveness of conservation of useful wild plants](https://www.sciencedirect.com/science/article/pii/S235234091831518X)
+  
 Software:
 - [GapAnalysis R package (In-situ gap analysis)](https://github.com/CIAT-DAPA/GapAnalysis)
 - [CAPFITOGEN tools](https://www.capfitogen.net/en/)
+  
 __________________________________________________________________
 ## Final outcomes checklist
 - [x] Download and curate data for a CWRGA or a LGA
